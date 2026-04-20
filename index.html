@@ -264,6 +264,37 @@
     }
     .context-callout p:last-child { margin-bottom: 0; }
 
+    /* ── VENUE IMAGE ── */
+    .venue-banner {
+      width: 100%;
+      height: 380px;
+      overflow: hidden;
+      position: relative;
+    }
+    .venue-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+      display: block;
+    }
+    .venue-banner .venue-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1.5rem 2rem;
+      background: linear-gradient(transparent, rgba(45, 49, 66, 0.85));
+      color: var(--white);
+      font-size: 0.95rem;
+    }
+    .venue-banner .venue-caption strong {
+      font-family: var(--font-header);
+      font-size: 1.15rem;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
     /* ── PILLARS ── */
     .pillars { background: var(--white); }
     .pillar-cards {
@@ -607,7 +638,7 @@
       </div>
       <div class="hero-detail">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-        <div><strong>Exeter</strong></div>
+        <div><strong>Reed Hall, Exeter</strong></div>
       </div>
       <div class="hero-detail">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
@@ -706,6 +737,15 @@
   </div>
 </section>
 
+<!-- VENUE IMAGE -->
+<div class="venue-banner">
+  <img src="reed-hall.jpeg" alt="Reed Hall, University of Exeter — a Grade II listed Italianate mansion set in landscaped gardens">
+  <div class="venue-caption">
+    <strong>Reed Hall, University of Exeter</strong>
+    A Grade II listed Italianate mansion set amongst the landscaped gardens of Streatham Campus
+  </div>
+</div>
+
 <!-- LOGISTICS -->
 <section class="logistics">
   <div class="container">
@@ -725,7 +765,7 @@
         <div class="logistics-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
         <div>
           <h4>Venue</h4>
-          <p>A residential venue in Exeter; details to be confirmed shortly. Overnight accommodation and all meals are included.</p>
+          <p>Reed Hall, University of Exeter, Streatham Drive, Exeter EX4 4QR. A Grade II listed Italianate mansion set in landscaped gardens. Overnight accommodation and all meals are included.</p>
         </div>
       </div>
 
